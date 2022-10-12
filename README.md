@@ -1,7 +1,7 @@
 # Meu repositório de exercícios
 Este repositório será utilizado para fazer os exercícios da Trybe.
 
-O curso da Trybe tem duração de um ano. Ao longo do ano estudaremos: fundamentos, front-end, back-end e ciência da computação. Cada módulo está separado por pastas, as quais contém os exercícios do tema em específico realizados no dia.
+O curso da Trybe tem duração de um ano. Ao longo do ano estudaremos: fundamentos, front-end, back-end e ciência da computação. Cada módulo está separado por pastas, as quais contém os exercícios do tema em específico realizados no dia. 
 
 ## A formação da Trybe
 
