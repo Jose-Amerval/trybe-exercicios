@@ -2,7 +2,7 @@
         background-color: yellow;
     }
     ol li:nth-child(even)  {
-        color: red;
+        color: green;
     }
  
     ol li:nth-child(odd) {
