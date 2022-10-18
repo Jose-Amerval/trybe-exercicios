@@ -30,7 +30,24 @@
       .rosa {
       background-color: pink;
       }
-      
+      #consulta li a:hover {
+        font-weight: bold;
+      }
+      #consulta li a[href*="stackoverflow"] {
+        color: orange;
+      }
+      #consulta li a[href*="w3schools"] {
+        color: green;
+      }
+      #consulta li a[href*="mozilla"] {
+        color: black;
+      }
+      #consulta li a[href*="devdocs"] {
+        color: yellow;
+      }
+      #consulta li a[href*="trybe"] {
+        color: green;
+      }
 
 
 
