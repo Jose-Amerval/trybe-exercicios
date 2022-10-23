@@ -9,7 +9,7 @@ if (angulo1 + angulo2 + angulo3 === 180) {
     console.log('False');  
 
 } else {
-    console.log('Você não é um triângulo!')
+    console.log('Você não é um triângulo válido!')
 }
 
  
