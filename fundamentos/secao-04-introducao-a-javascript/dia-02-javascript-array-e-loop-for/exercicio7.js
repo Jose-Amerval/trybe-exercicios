@@ -3,4 +3,12 @@ let soma = 0;
 
 for(let index = 0; index < numbers.length; index += 1) {
   soma += numbers[index];
+
+}
+ 
+if (soma > 20) {
+    console.log('Valor maior que 20');
+
+} else {
+    console.log('Valor menor ou igual a 20');
 }
