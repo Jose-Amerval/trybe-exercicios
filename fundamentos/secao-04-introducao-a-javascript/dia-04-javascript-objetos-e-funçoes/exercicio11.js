@@ -1,10 +1,9 @@
-function verificaPalindrome(palindromo) {
- if (palindromo === 'arara') {
-    return true
+function verificaPalindrome(string) {
+let reverse = string.split('').reverse().join('');
 
-} else {
-    return false
-}
+return reverse
 
 }
-console.log (verificaPalindrome('arara'));
+
+console.log(verificaPalindrome('arara'));
+console.log(verificaPalindrome('desenvolvimento'));
