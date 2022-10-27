@@ -7,3 +7,4 @@ function maisRepetido(numeros) {
         let verificaNumero = numeros[index];
       }
     }
+   
