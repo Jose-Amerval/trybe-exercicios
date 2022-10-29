@@ -72,8 +72,11 @@
     }
     corrigeh1 ();
     //   5. Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
-    let firstagp = document.getElementsByTagName("p")(0);
-    let string = firstagp.toUpperCase();
+    function mudaParagrafoMaiuscula () {
+    let primeiroParagrafo = document.getElementsByTagName("p")[0];
+    primeiroParagrafo.innerHTML = primeiroParagrafo.innerHTML.toUpperCase();
+    }
+    mudaParagrafoMaiuscula ();
     //   6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
       
     </script>
