@@ -60,8 +60,11 @@
      }
      mudaCorFundo();
     //   3. Crie e execute uma função que mude a cor do quadrado vermelho para branco.
-    let centerContent = document.getElementsByTagName("section")[0];
+    function mudaQuadradoParaBranco () {
+    let centerContent = document.getElementsByClassName("center-content")[0];
      centerContent.style.background = "white";
+    }
+    mudaQuadradoParaBranco ();
     //   4. Crie e execute uma função que corrija o texto da tag <h1>.
     let title = document.getElementsByClassName('title')[0];
     title.innerText = 'Exercício - JavaScript'; 
