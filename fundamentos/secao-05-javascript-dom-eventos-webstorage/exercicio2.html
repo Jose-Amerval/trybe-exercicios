@@ -3,14 +3,16 @@
   <body>
     <header>
       <h2 id="page-title">Título</h2>
-      <p class="paragraph">Dê uma cor para este parágrafo!</p>
+      <p class="para" id = "paragraph">Dê uma cor para este parágrafo!</p>
       <h4 id="subtitle">Subtítulo</h4>
-      <p class="paragraph">Segundo parágrafo!</p>
+      <p class="para" id = "second-paragraph">Segundo parágrafo!</p>
     </header>
     <script>
-      const paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
-    
+    //   const paragraph = document.getElementById("paragraph");
+    //   paragraph.style.color = "red";
+     const para = document.getElementsByClassName("para")[0];
+     para.style.background = 'green';
+     para.style.color = 'white';    
     </script>
   </body>
 </html>
