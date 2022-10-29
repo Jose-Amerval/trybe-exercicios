@@ -51,11 +51,14 @@
     function mudaTexto () {
         let paragrafo = document.getElementsByTagName('p')[1];
         paragrafo.innerHTML = "Daqui a 2 anos pretendo estar bem encaminhado na programação, e ganhando um salário de 10 mil reais.";
-        };
-        mudaTexto ();
+        }
+        mudaTexto();
     //   2. Crie e execute uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
-    let mainContent = document.getElementsByClassName("main-content")[0];
-     mainContent.style.background = "#4CA46D";      
+     function mudaCorFundo () {
+        let mudaCor = document.getElementsByTagName('main')[0];
+        mudaCor.style.background = "#4CA46D";
+     }
+     mudaCorFundo();
     //   3. Crie e execute uma função que mude a cor do quadrado vermelho para branco.
     let centerContent = document.getElementsByTagName("section")[0];
      centerContent.style.background = "white";
